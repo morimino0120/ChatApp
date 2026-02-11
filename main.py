@@ -49,7 +49,7 @@ for chat in st.session_state.chat_history:
         st.markdown(chat["content"])
         
 # ユーザーの入力を受け取る  
-if prompt := st.chat_input("何か聞きたいことはありますか？"):
+if prompt := st.chat_input("何か聞きたいことはありますか？？"):
     with st.chat_message("user"):
         st.markdown(prompt)
     with st.chat_message("assistant"):
